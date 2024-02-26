@@ -1,0 +1,38 @@
+.main{
+    height: 210px !important;
+    background-color: darkslategray ;    
+}
+.main>p{
+    text-align: center;
+    font-size: 4em;
+    margin: -1px;
+    padding: 40px;
+    color: white;   
+    font-weight: 300 !important;
+   
+}
+.bottom{
+    height: max-content;
+    display: flex;
+    gap: 1px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: white;
+    background-color: darkslategray ;
+}
+.pages li a {
+    color: white;
+    text-decoration: none !important;
+    
+}
+.footer{
+    background-color: darkslategray;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    padding: 14px;
+    margin-top: 1px;
+    margin-bottom: 0;
+}

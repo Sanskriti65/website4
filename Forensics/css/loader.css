@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(43, 48, 48);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.circle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgb(51, 101, 102) ;
+    animation-name: circle;
+    animation-duration: 3s;
+    animation: circle 2s  linear;
+    transform-origin: 0% 100% ;
+}
+.circle:nth-child(1){
+    background-color:rgb(87, 87, 223) ;
+    animation-delay: 0.2s;
+    z-index: 9;
+}
+.circle:nth-child(2){
+    background-color:rgb(44, 136, 205) ;
+    animation-delay: 0.4s;
+    z-index: 8;
+}
+.circle:nth-child(3){
+    background-color:rgb(6, 116, 116);
+    animation-delay:0.6s;
+    z-index: 7;
+}
+.circle:nth-child(4){
+    background-color:rosybrown ;
+    animation-delay: 0.8s;
+    z-index: 6;
+}
+.circle:nth-child(5){
+    background-color:rgb(185, 124, 124) ;
+    animation-delay: 1s;
+    z-index: 5;
+}
+.circle:nth-child(6){
+    background-color:rgb(135, 135, 75) ;
+    animation-delay: 1.2s;
+    z-index: 4;
+}
+.circle:nth-child(7){
+    background-color:rgb(86, 46, 127) ;
+    animation-delay:1.4s ;
+    z-index: 3;
+}
+.circle:nth-child(8){
+    background-color:rgb(215, 35, 35) ;
+    animation-delay: 1.6s;
+    z-index: 2;
+}
+.circle:nth-child(9){
+    background-color:rgb(172, 83, 113) ;
+    animation-delay: 1.8s;
+    z-index: 1;
+}
+.circle:nth-child(10){
+    background-color:rgb(123, 37, 37);
+    animation-delay: 2s;
+    z-index: 0;
+}
+
+@keyframes circle {
+0%   {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}

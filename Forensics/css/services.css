@@ -1,0 +1,21 @@
+
+body{
+    margin: 0;
+}
+.center{
+   display: grid;
+   justify-content: center;
+}
+.main{
+    height: 210px !important;
+    background-color: darkslategray ;    
+}
+.main>p{
+    text-align: center;
+    font-size: 4em;
+    margin: -1px;
+    padding: 40px;
+    color: white;   
+    font-weight: 300 !important;
+   
+}
